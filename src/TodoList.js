@@ -21,9 +21,11 @@ class TodoList extends Component{
     render() {
         return(
             <div class = "list">
-                {
-                    this.state.todoList.map(item => <ListItem item = {item}/>)
-                }
+                <div class = "todoList">
+                    {
+                        this.state.todoList.map(item => <ListItem item = {item}/>)
+                    }
+                </div>
                 <NewItem addItem = {this.addNewItem}/>
             </div>
         );
