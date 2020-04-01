@@ -8,7 +8,8 @@ class TodoList extends Component{
         this.state = {
             todoList:[
                 {content: 'React practice', done: true},
-                {content: 'game time', done: false}
+                {content: 'game time', done: false},
+                {content: 'sing time', done: false}
             ]
         }
     }
